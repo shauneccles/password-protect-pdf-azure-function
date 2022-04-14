@@ -17,7 +17,7 @@ Submit a file via form upload with a PDF file to the Function URL with the passw
 
 ```
 curl -X GET \
-  'http://<your-azure-function-location>/api/PasswordProtectPDF?password=your_password' \
+  'http://<your-azure-function-location>/api/<your-function-name>?password=your_password' \
   --form 'file=@C:\your_test_file.pdf'
 ```
 
