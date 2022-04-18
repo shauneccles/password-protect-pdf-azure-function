@@ -18,7 +18,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     """
 
     This function reads the PDF file from the request body.
-    It uses the password from the query string or POST JSON body to encrypt and return the PDF.
+    It uses the password from the query string to encrypt and return the PDF.
 
     Args:
         req (func.HttpRequest): A request object from Azure HTTP Trigger.
